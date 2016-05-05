@@ -1,0 +1,43 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1000" height="1000" frameRate="67" currentTimeline="1" xflVersion="2.7" creatorInfo="Adobe Animate CC" platform="Macintosh" versionInfo="Saved by Animate Macintosh 15.1 build 13" majorVersion="15" minorVersion="1" buildNumber="13" viewAngle3D="86.8503432264464" previewMode="fast" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C">
+     <media>
+          <DOMBitmapItem name="IMG_1642-inverted.psd" itemID="57254632-0000001f" sourceLastImported="1462060594" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="IMG_1642-inverted.psd" bitmapDataHRef="M 2 1462060594.dat" frameRight="48960" frameBottom="48960"/>
+          <DOMBitmapItem name="IMG_1642.JPG" itemID="5725453b-00000016" sourceLastImported="1459802799" sourcePlatform="macintosh" externalFileCRC32="1884523688" externalFileSize="2030186" allowSmoothing="true" quality="50" href="IMG_1642.JPG" bitmapDataHRef="M 1 1462060347.dat" frameRight="48960" frameBottom="48960" isJPEG="true"/>
+     </media>
+     <symbols>
+          <Include href="8.xml" loadImmediate="false" itemID="57254891-0000003d" lastModified="1462236355"/>
+          <Include href="8-doubled.xml" loadImmediate="false" itemID="57278f6e-00000072" lastModified="1462484360"/>
+          <Include href="16.xml" loadImmediate="false" itemID="5725488b-0000003c" lastModified="1462236357"/>
+          <Include href="16-doubled.xml" loadImmediate="false" itemID="57278f77-00000076" lastModified="1462484403"/>
+          <Include href="32.xml" loadImmediate="false" itemID="57254884-0000003b" lastModified="1462210416"/>
+          <Include href="32-doubled.xml" loadImmediate="false" itemID="57278f7e-0000007a" lastModified="1462484391"/>
+          <Include href="main-32.xml" loadImmediate="false" itemID="57279de3-00000081" lastModified="1462214115"/>
+          <Include href="main-doubled.xml" loadImmediate="false" itemID="57279e5b-000000b9" lastModified="1462484408"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="6">
+               <layers>
+                    <DOMLayer name="32" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="64" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="main-doubled" name="main" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="500" ty="500"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <persistentData>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+     </persistentData>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>

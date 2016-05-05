@@ -42,6 +42,7 @@ export default class Logo extends React.Component {
     return (
       <canvas
         style={{
+          marginLeft: -6
           // padding: 20,
           // // backgroundColor: "rgba(255, 255, 255, 0.5)",
           // backgroundColor: "rgba(0, 0, 0, 0.5)",
