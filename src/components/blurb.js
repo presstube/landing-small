@@ -17,7 +17,7 @@ export default class Blurb extends React.Component {
           // backgroundColor: "rgba(0,0,0,0.5)",
           // borderRadius: 4,
           fontSize: "140%",
-          letterSpacing: 1.3
+          // letterSpacing: 1.3
         }}
         >
 
@@ -28,7 +28,7 @@ export default class Blurb extends React.Component {
 
 
         <p>
-          Founded in 2000 by James Paterson (<a href="https://vimeo.com/69323991">watch James at Eyeo</a>), Presstube has been cracking creative and technical nuts for likes of Apple, Nike, Sony, Burton, Bjork, Sid Lee, and Fiftythree ever since.
+          Founded in 2000 by James Paterson (<a href="https://vimeo.com/69323991">watch James' Eyeo talk</a>), Presstube has been cracking creative and technical nuts for likes of Apple, Nike, Sony, Burton, Bjork, Sid Lee, and Fiftythree ever since.
         </p>
 
         <p>

@@ -16,18 +16,20 @@ export default class CTAContact extends React.Component {
           style={{
             color: "#222",
             padding: 20,
-            paddingTop: 24,
+            paddingBottom: 12,
+            // paddingTop: 24,
             // backgroundColor: "rgba(255, 255, 255, 0.5)",
             // backgroundColor: "rgba(0, 0, 0, 0.5)",
             backgroundColor: "white",
             // backgroundColor: "rgba(255, 255, 255, 0.5)",
-            borderRadius: 2
+            borderRadius: 2,
+            textDecoration: "none"
           }}>
             <b 
               className="tk-proxima-nova" 
               style={{
                 fontSize: "200%",
-                letterSpacing: 1.4
+                // letterSpacing: 1.4
               }}>
                 Contact
             </b>
