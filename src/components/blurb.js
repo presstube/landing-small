@@ -28,6 +28,10 @@ export default class Blurb extends React.Component {
           Founded in 2000 by James Paterson, Presstube has been cracking creative and technical nuts for likes of Apple, Nike, Sony, Burton, Bjork, Sid Lee, and Fiftythree ever since.
         </p>
 
+        <p>
+          If you have an idea you'd like to bring to life, <a href="mailto:j@presstube.com">get in touch</a>.
+        </p>
+
       </div>
     )
   }

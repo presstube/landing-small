@@ -20,7 +20,6 @@ export default class App extends React.Component {
           <Logo />
           <Blurb />
           <EyeoVid />
-          <CTA />
       </div>
     )
   }
@@ -28,5 +27,6 @@ export default class App extends React.Component {
 
 
 /*
+          <CTA />
         className="tk-jaf-facitweb">
 */
