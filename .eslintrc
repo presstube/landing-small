@@ -17,6 +17,10 @@
   "plugins": [
     "react"
   ],
+  "globals": {
+    "createjs": true,
+    "lib": true
+  },
   "rules": {
     "react/display-name": [
       1,
