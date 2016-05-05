@@ -7,12 +7,13 @@ export default class CTA extends React.Component {
       <div 
         style={{
           marginTop: 40,
+          marginBottom: 20,
           // padding: 20,
         }}>
         <a
           href="mailto:j@presstube.com"
           style={{
-            color: "#eee",
+            // color: "#eee",
             padding: 20,
             // backgroundColor: "rgba(255, 255, 255, 0.5)",
             backgroundColor: "rgba(0, 0, 0, 0.5)",

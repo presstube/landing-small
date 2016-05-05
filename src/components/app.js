@@ -11,7 +11,9 @@ export default class App extends React.Component {
     return (
       <div
         style={{
-          padding: 40
+          padding: window.innerWidth < 420 
+          ? 20
+          : 40
         }}>
         <Logo />
         <Blurb />
