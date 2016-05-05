@@ -12,16 +12,15 @@ export default class App extends React.Component {
     return (
       <div
         style={{
-          padding: window.innerWidth < 420 
+          padding: window.innerWidth < 420
           ? 20
           : 40
         }}
         className="tk-ff-tisa-web-pro">
           <Logo />
           <Blurb />
-          <CTA />
           <EyeoVid />
-
+          <CTA />
       </div>
     )
   }
