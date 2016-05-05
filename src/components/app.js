@@ -6,27 +6,35 @@ import Logo from "./logo"
 import Blurb from "./blurb"
 import CTAContact from "./cta-contact"
 import CTAEyeo from "./cta-eyeo"
+import Overlay from "./overlay"
 // import EyeoVid from "./eyeo-vid"
 
 export default class App extends React.Component {
   render () {
     return (
-      <div
-        style={{
-          maxWidth: 800,
-          padding: window.innerWidth < 420
-            ? 20
-            : 40,
-        }}
-        className="tk-proxima-nova">
-          <div
-            style={{
+      <div>
+        <Overlay />
+        <div
+          style={{
+            position: "relative",
+            maxWidth: 800,
+            padding: window.innerWidth < 420
+              ? 20
+              : 20,
+            xIndex: 10,
+            marginTop: 20,
+            marginBottom: 20
+          }}
+          className="tk-proxima-nova">
+            <div
+              style={{
 
-            }}>
-            <Logo />
-          </div>
-          <Blurb />
-          <CTAContact />
+              }}>
+              <Logo />
+            </div>
+            <Blurb />
+            <CTAContact />
+        </div>
       </div>
     )
   }

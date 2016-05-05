@@ -1,7 +1,7 @@
 
 import React from "react"
 
-export default class BG extends React.Component {
+export default class Overlay extends React.Component {
   render () {
     return (
       <div
@@ -12,8 +12,10 @@ export default class BG extends React.Component {
           width: "100vw",
           height: "100vh",
           top: 0,
+          left: 0,
           backgroundColor: "rgba(0, 0, 0, 0.5)",
-          background: "url('assets/bg.jpg') no-repeat"
+          zIndex: 0
+          // background: "url('assets/bg.jpg') no-repeat"
         }}>
 
       </div>
