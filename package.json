@@ -4,7 +4,7 @@
   "description": "Brutally minimal landing page for Presstube as a software consultancy.",
   "main": "src/main.js",
   "scripts": {
-    "beforebuild": "mkdir -p build && cp index.html build",
+    "beforebuild": "mkdir -p build && cp index.html build && cp -r assets/ build/assets/",
     "start": "npm run beforebuild && webpack-dev-server -d",
     "start-production": "npm start -p --devtool sourcemap",
     "test": "echo \"Error: no test specified\" && exit 1",
