@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="pt-logo-4-frame" itemID="570ea484-00000014" symbolType="graphic" lastModified="1461596920">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="pt-logo-4-frame" itemID="570ea484-00000014" symbolType="graphic" lastModified="1462458642">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -14,7 +14,7 @@
                     <StrokeStyle index="1">
                       <SolidStroke scaleMode="normal" weight="2">
                         <fill>
-                          <SolidColor color="#222222"/>
+                          <SolidColor color="#EEEEEE"/>
                         </fill>
                       </SolidStroke>
                     </StrokeStyle>
@@ -40,7 +40,7 @@
                     <StrokeStyle index="1">
                       <SolidStroke scaleMode="normal" weight="2">
                         <fill>
-                          <SolidColor color="#222222"/>
+                          <SolidColor color="#EEEEEE"/>
                         </fill>
                       </SolidStroke>
                     </StrokeStyle>
@@ -80,7 +80,7 @@
                     <StrokeStyle index="1">
                       <SolidStroke scaleMode="normal" weight="2">
                         <fill>
-                          <SolidColor color="#222222"/>
+                          <SolidColor color="#EEEEEE"/>
                         </fill>
                       </SolidStroke>
                     </StrokeStyle>
@@ -120,7 +120,7 @@
                     <StrokeStyle index="1">
                       <SolidStroke scaleMode="normal" weight="2">
                         <fill>
-                          <SolidColor color="#222222"/>
+                          <SolidColor color="#EEEEEE"/>
                         </fill>
                       </SolidStroke>
                     </StrokeStyle>
@@ -161,7 +161,7 @@
                     <StrokeStyle index="1">
                       <SolidStroke scaleMode="normal" weight="2">
                         <fill>
-                          <SolidColor color="#222222"/>
+                          <SolidColor color="#EEEEEE"/>
                         </fill>
                       </SolidStroke>
                     </StrokeStyle>
