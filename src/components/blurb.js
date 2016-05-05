@@ -10,7 +10,7 @@ export default class Blurb extends React.Component {
           // height: 300,
           // backgroundColor: "red"
         }}>
-        BLURB BLURBBLURBBLURBBLURB BLURB BLURB BLURBBLURB BLURBBLURBBLURB BLURB BLURB 
+        BLURB BLURBBLU RBBLURB BLURB BLURB 
       </div>
     )
   }
