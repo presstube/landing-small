@@ -8,6 +8,7 @@ export default class CTAContact extends React.Component {
         style={{
           marginTop: 40,
           marginBottom: 20,
+          marginLeft: 20,
           // padding: 20,
         }}>
         <a

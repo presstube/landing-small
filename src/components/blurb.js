@@ -14,8 +14,8 @@ export default class Blurb extends React.Component {
           // padding: 0,
           padding: "10px 20px 10px 20px",  
           color: "#eee",
-          backgroundColor: "rgba(0,0,0,0.5)",
-          borderRadius: 4,
+          // backgroundColor: "rgba(0,0,0,0.5)",
+          // borderRadius: 4,
           fontSize: "140%",
           letterSpacing: 1.3
         }}
