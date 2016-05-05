@@ -6,7 +6,7 @@ export default class EyeoVid extends React.Component {
     return (
       <div
         style={{
-          marginTop: 40,
+          // marginTop: 40,
           border:"none",
           maxWidth: 740,
           // padding: 20
@@ -15,10 +15,10 @@ export default class EyeoVid extends React.Component {
           style={{
             border:"none",
           }}
-          width="740"
+          // width="740"
           width={window.innerWidth < 700
             ? 320
-            : 740
+            : 700
           }
           height={window.innerWidth < 700
             ? 182

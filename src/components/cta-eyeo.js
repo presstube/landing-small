@@ -1,7 +1,7 @@
 
 import React from "react"
 
-export default class CTA extends React.Component {
+export default class CTAEyeo extends React.Component {
   render () {
     return (
       <div 
@@ -11,7 +11,7 @@ export default class CTA extends React.Component {
           // padding: 20,
         }}>
         <a
-          href="mailto:j@presstube.com"
+          href="https://vimeo.com/69323991"
           style={{
             // color: "#eee",
             padding: 20,
@@ -25,7 +25,7 @@ export default class CTA extends React.Component {
                 fontSize: "140%",
                 letterSpacing: 1.4
               }}>
-                Contact
+                Watch James at Eyeo
             </span>
           </a>
       </div>

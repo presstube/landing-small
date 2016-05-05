@@ -8,9 +8,9 @@ export default class Blurb extends React.Component {
         style={{
           margin: 0,
           marginTop: 20,
-          // padding: 0,
+          padding: 0,
           padding: "10px 20px 10px 20px",
-          maxWidth: 700,
+          
           color: "#eee",
           backgroundColor: "rgba(0,0,0,0.5)",
           borderRadius: 4,
@@ -25,11 +25,11 @@ export default class Blurb extends React.Component {
         </p>
 
         <p>
-          Founded in 2000 by James Paterson, Presstube has been cracking creative and technical nuts for likes of Apple, Nike, Sony, Burton, Bjork, Sid Lee, and Fiftythree ever since.
+          Founded in 2000 by James Paterson (<a href="https://vimeo.com/69323991">watch James at Eyeo</a>), Presstube has been cracking creative and technical nuts for likes of Apple, Nike, Sony, Burton, Bjork, Sid Lee, and Fiftythree ever since.
         </p>
 
         <p>
-          If you have an idea you'd like to bring to life, <a href="mailto:j@presstube.com">get in touch</a>.
+          If you have an idea you'd like to bring to life you should get in touch!
         </p>
 
       </div>
@@ -39,9 +39,13 @@ export default class Blurb extends React.Component {
 
 
 /*
+          <span className="tk-ff-netto-web" style={{fontSize: "140%"}}>Presstube Studio</span> is a boutique software consultancy specializing in prototyping, MVP production, custom tool-building, and bespoke user interfaces.
+        <p>
+          If you have an idea you'd like to bring to life, <a href="mailto:j@presstube.com">get in touch</a>.
+        </p>
 
         <p>
-          If you have an idea you'd like to bring to life you should get in touch!
+          If you have an idea you'd like to bring to life, <a href="mailto:j@presstube.com">get in touch</a>.
         </p>
 
 */
