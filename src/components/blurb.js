@@ -15,7 +15,7 @@ export default class Blurb extends React.Component {
           backgroundColor: "rgba(0,0,0,0.5)",
           borderRadius: 4,
           fontSize: "120%",
-          letterSpacing: 1.5
+          letterSpacing: 1.3
         }}
         // className="tk-jaf-facitweb"
         >
