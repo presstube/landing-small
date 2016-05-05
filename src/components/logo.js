@@ -5,23 +5,34 @@ import ReactDOM from "react-dom"
 export default class Logo extends React.Component {
 
   componentDidMount () {
-    const canvas = ReactDOM.findDOMNode(this)
-    const root = window.root = new lib.ptlogo100sq()
-    const stage = new createjs.Stage(canvas)
-    const {main} = root
+    const canvas = this.canvas = ReactDOM.findDOMNode(this)
+    const root = new lib.ptlogo100sq()
+    const stage = this.stage = new createjs.Stage(this.canvas)
+    const main = root.main
     stage.addChild(root)
     stage.update()
     createjs.Ticker.setFPS(30)
     createjs.Ticker.addEventListener("tick", stage)
     main.gotoAndStop(0)
-    console.log(canvas)
+    this.onResize()
+    window.addEventListener("resize", this.onResize.bind(this))
+  }
+
+  onResize () {
+    const { canvas, stage } = this
+    const dpr = window.devicePixelRatio
+    canvas.width = canvas.height = dpr * 100
+    stage.scaleX = stage.scaleY = dpr
+    Object.assign(canvas.style, {
+      width: "100px",
+      height: "100px"
+    })
+    console.log("on resize: ", canvas, stage)
   }
 
   render () {
     return (
-      <canvas width="100" height="100">
-        LOGO
-      </canvas>
+      <canvas />
     )
   }
 }
