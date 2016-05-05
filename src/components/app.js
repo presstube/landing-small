@@ -13,12 +13,12 @@ export default class App extends React.Component {
     return (
       <div
         style={{
-          maxWidth: 700,
+          maxWidth: 800,
           padding: window.innerWidth < 420
             ? 20
             : 40,
         }}
-        className="tk-ff-tisa-web-pro">
+        className="tk-proxima-nova">
           <div
             style={{
 
@@ -36,5 +36,6 @@ export default class App extends React.Component {
 /*
           <CTAEyeo />
           <EyeoVid />
+        className="tk-ff-tisa-web-pro">
         className="tk-jaf-facitweb">
 */

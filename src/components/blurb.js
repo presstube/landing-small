@@ -16,13 +16,13 @@ export default class Blurb extends React.Component {
           color: "#eee",
           backgroundColor: "rgba(0,0,0,0.5)",
           borderRadius: 4,
-          fontSize: "120%",
+          fontSize: "140%",
           letterSpacing: 1.3
         }}
         >
 
         <p>
-          <span className="tk-ff-netto-web" style={{fontSize: "140%"}}>Presstube Studio</span> is a boutique software consultancy specializing in prototyping, MVP production, custom tool-building, and bespoke user interfaces.
+          <b style={{fontSize: "250%"}}>Presstube Studio</b> is a boutique software consultancy specializing in prototyping, MVPs, tool-building, and custom user interfaces.
         </p>
 
         <p>
@@ -30,7 +30,7 @@ export default class Blurb extends React.Component {
         </p>
 
         <p>
-          If you have an idea you'd like to bring to life get in touch!
+          If you have an idea you want to bring to life get in touch!
         </p>
 
       </div>
@@ -40,11 +40,12 @@ export default class Blurb extends React.Component {
 
 
 /*
-          <span className="tk-ff-netto-web" style={{fontSize: "140%"}}>Presstube Studio</span> is a boutique software consultancy specializing in prototyping, MVP production, custom tool-building, and bespoke user interfaces.
+          <span className="tk-proxima-nova" style={{fontSize: "250%"}}>Presstube Studio</span> is a boutique software consultancy specializing in prototyping, MVPs, tool-building, and custom user interfaces.
         <p>
           If you have an idea you'd like to bring to life, <a href="mailto:j@presstube.com">get in touch</a>.
         </p>
 
+          <span className="tk-ff-netto-web" style={{fontSize: "140%"}}>Presstube Studio</span> is a boutique software consultancy specializing in prototyping, MVP production, custom tool-building, and bespoke user interfaces.
         <p>
           If you have an idea you'd like to bring to life, <a href="mailto:j@presstube.com">get in touch</a>.
         </p>
