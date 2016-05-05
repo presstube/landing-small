@@ -1,6 +1,6 @@
 import Path from "path"
 import "babel-polyfill"
-
+import LiveReloadPlugin from "webpack-livereload-plugin"
 
 
 const path = Path.join.bind(null, __dirname)
@@ -21,4 +21,9 @@ export default {
   devServer: {
     contentBase: outputDir
   },
+  plugins: [
+    new LiveReloadPlugin({
+      appendScriptTag: true
+    })
+  ]
 }
