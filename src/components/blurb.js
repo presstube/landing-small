@@ -10,17 +10,15 @@ export default class Blurb extends React.Component {
           // marginTop: 20,
           marginTop: window.innerWidth < 420
             ? 20
-            : 40,
+            : 20,
           // padding: 0,
-          padding: "10px 20px 10px 20px",
-          
+          padding: "10px 20px 10px 20px",  
           color: "#eee",
           backgroundColor: "rgba(0,0,0,0.5)",
           borderRadius: 4,
           fontSize: "120%",
           letterSpacing: 1.3
         }}
-        // className="tk-jaf-facitweb"
         >
 
         <p>
