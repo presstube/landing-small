@@ -16,7 +16,15 @@ export default class EyeoVid extends React.Component {
             border:"none",
           }}
           width="740"
-          height="420"
+          width={window.innerWidth < 700
+            ? 320
+            : 740
+          }
+          height={window.innerWidth < 700
+            ? 182
+            : 420
+          }
+          // height="420"
           src="https://player.vimeo.com/video/69323991?color=eeeeee"
           frameborder="0"
           webkitallowfullscreen
