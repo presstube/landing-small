@@ -19,9 +19,19 @@ export default class CTA extends React.Component {
             backgroundColor: "rgba(0, 0, 0, 0.5)",
             borderRadius: 4
           }}>
-            CONTACT
+            <span 
+              className="tk-ff-netto-web" 
+              style={{
+                fontSize: "140%",
+                letterSpacing: 1.4
+              }}>
+                Contact
+            </span>
           </a>
       </div>
     )
   }
 }
+            /*
+            <span className="tk-ff-netto-web" style={{fontSize: "140%"}}>Contact</span>
+*/
