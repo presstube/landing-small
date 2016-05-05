@@ -7,8 +7,11 @@ export default class Blurb extends React.Component {
       <div
         style={{
           margin: 0,
-          marginTop: 20,
-          padding: 0,
+          // marginTop: 20,
+          marginTop: window.innerWidth < 420
+            ? 20
+            : 40,
+          // padding: 0,
           padding: "10px 20px 10px 20px",
           
           color: "#eee",
@@ -29,7 +32,7 @@ export default class Blurb extends React.Component {
         </p>
 
         <p>
-          If you have an idea you'd like to bring to life you should get in touch!
+          If you have an idea you'd like to bring to life get in touch!
         </p>
 
       </div>

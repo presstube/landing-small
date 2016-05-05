@@ -15,8 +15,8 @@ export default class App extends React.Component {
         style={{
           maxWidth: 700,
           padding: window.innerWidth < 420
-          ? 20
-          : 40,
+            ? 20
+            : 40,
         }}
         className="tk-ff-tisa-web-pro">
           <div
