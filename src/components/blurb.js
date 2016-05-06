@@ -22,17 +22,15 @@ export default class Blurb extends React.Component {
         >
 
         <p>
-          <b style={{fontSize: "250%"}}>Presstube Studio</b><br/> is a boutique software consultancy specializing in prototyping, MVPs, tool-building, and custom user interfaces.
+          <b style={{fontSize: "250%"}}>Presstube</b><br/> is a boutique software consultancy specializing in prototyping, MVPs, tool-building, and custom user interfaces.
         </p>
-
-
 
         <p>
           Founded in 2000 by James Paterson (<a href="https://vimeo.com/69323991">watch James' Eyeo talk</a>), Presstube has been cracking creative and technical nuts for likes of Apple, Nike, Sony, Burton, Bjork, Sid Lee, and Fiftythree ever since.
         </p>
 
         <p>
-          If you want an idea brought to life get in touch!
+          If you want help bringing an idea to life get in touch.
         </p>
 
       </div>

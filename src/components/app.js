@@ -7,14 +7,15 @@ import Blurb from "./blurb"
 import CTAContact from "./cta-contact"
 import CTAEyeo from "./cta-eyeo"
 import Overlay from "./overlay"
-import FullscreenAnim from "./fullscreen-anim"
+import BG from "./bg"
+// import FullscreenAnim from "./fullscreen-anim"
 // import EyeoVid from "./eyeo-vid"
 
 export default class App extends React.Component {
   render () {
     return (
       <div>
-            <FullscreenAnim />
+        <BG />
         <Overlay />
         <div
           style={{
@@ -23,8 +24,8 @@ export default class App extends React.Component {
             // padding: window.innerWidth < 420
             //   ? 20
             //   : 20,
-            padding: 30,
-            padding: "20px 30px 20px 30px",
+            padding: 10,
+            padding: "20px 20px 20px 20px",
             xIndex: 10,
             marginTop: 20,
             marginBottom: 20
@@ -46,6 +47,7 @@ export default class App extends React.Component {
 
 
 /*
+        <FullscreenAnim />
           <CTAEyeo />
           <EyeoVid />
         className="tk-ff-tisa-web-pro">

@@ -26,7 +26,7 @@ export default class FullscreenAnim extends React.Component {
     const {innerWidth: w, innerHeight: h, devicePixelRatio: dpr} = window
     canvas.width = w * dpr
     canvas.height = h * dpr
-    console.log(w, h)
+    // console.log(w, h)
     Object.assign(canvas.style, {
       width: w,
       height: h,

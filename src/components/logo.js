@@ -29,7 +29,7 @@ export default class Logo extends React.Component {
       width: "100px",
       height: "100px"
     })
-    console.log("on resize: ", canvas, stage)
+    // console.log("on resize: ", canvas, stage)
   }
 
   onScroll () {
