@@ -30,7 +30,7 @@ export default class Blurb extends React.Component {
         </p>
 
         <p>
-          If you want help bringing an idea to life get in touch.
+          If you have an idea you want brought to life, or just want to discuss possibilities, get in touch.
         </p>
 
       </div>
@@ -40,6 +40,8 @@ export default class Blurb extends React.Component {
 
 
 /*
+          If you have an idea you want brought to life, get in touch!
+          If you want help bringing an idea to life get in touch.
           <span className="tk-proxima-nova" style={{fontSize: "250%"}}>Presstube Studio</span> is a boutique software consultancy specializing in prototyping, MVPs, tool-building, and custom user interfaces.
         <p>
           If you have an idea you'd like to bring to life, <a href="mailto:j@presstube.com">get in touch</a>.

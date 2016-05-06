@@ -20,7 +20,7 @@ export default class App extends React.Component {
         <div
           style={{
             position: "relative",
-            maxWidth: 800,
+            maxWidth: 700,
             // padding: window.innerWidth < 420
             //   ? 20
             //   : 20,
